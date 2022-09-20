@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  background-color: hsl(30, 38%, 92%);
+  line-height: 1.2;
+}
+/* Product Body */
+.container {
+  padding-left: 0;
+  width: 550px;
+  height:415px;
+  display: flex;
+  flex-flow: row;
+  border-radius: 7px;
+  background-color: #f4f4f4;
+}
+
+img {
+  /* width: 100%; */
+    display: block;
+    /* max-width: 200px; */
+    object-fit: cover;
+    /* height: 100%; */
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+}
+.product-image{
+
+}
+
+
+
+.product-preview {
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat";
+  font-size: .7rem;
+  letter-spacing: 5px;
+}
+
+.product-name {
+  font-family: "Fraunces";
+  font-weight: bold;
+  font-size: 1.9rem;
+  line-height: 1.9rem;
+}
+
+.product-information {
+  padding: 20px 20px 25px 25px;
+  letter-spacing: 1px;
+  text-align: left;
+
+}
+
+.product-description {
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+
+}
+/* Prices */
+.price {
+  display: flex;
+  /* float:right; */
+}
+.current-price {
+  font-family: "Fraunces";
+  color: hsl(158, 36%, 37%);
+  margin-bottom: 1rem;
+  font-size: 1.975rem;
+  padding: 20px 0 20px 0
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+  font-size: .7325em;
+  padding: 11px 0 0 20px;
+  margin: 20px 0 0 0;
+}
+
+.btn {
+  background-color: hsl(158, 36%, 37%);
+  color: #fff;
+  font-weight: 500;
+  font-size: .9rem;
+  padding: 5px 0 0 0;
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  width: 100%;
+  padding: 0 0 0 50px;
+  gap: .7em;
+}
+
+.cart-logo {
+
+}
+
+.btn:hover {
+  background-color: hsla(157, 43%, 18%, 1);
+}
+
+img:hover {
+  /* -o-transition:.5s; */
+  -ms-transition:1s;
+  -moz-transition:1s;
+  -webkit-transition:1s;
+  transition:1s;
+  box-shadow: 2px 2px 15px hsl(158, 36%, 37%);
+}
+@media{
+
+}
